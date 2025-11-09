@@ -1,7 +1,7 @@
 name: Orar Automat - Daily SMS
 on:
   schedule:
-    - cron: '30 6 * * *' # 06:30 UTC daily — change to your preferred UTC time
+    - cron: '0 21 * * *' # 21:00 UTC daily (10 PM Bucharest time)
   workflow_dispatch: {}
 
 jobs:
