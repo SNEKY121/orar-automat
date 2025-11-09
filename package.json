@@ -1,0 +1,13 @@
+{
+  "name": "orar-automat",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "validate": "node src/validator.js"
+  },
+  "dependencies": {
+    "luxon": "^3.7.2",
+    "twilio": "^5.10.4"
+  }
+}

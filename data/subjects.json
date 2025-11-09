@@ -1,0 +1,20 @@
+{
+  "CALC101": {
+    "name": "Calculus I",
+    "short": "Calc",
+    "defaultLocation": "B202",
+    "teacher": "Dr. Ionescu"
+  },
+  "ALG201": {
+    "name": "Algorithms",
+    "short": "Algo",
+    "defaultLocation": "C101",
+    "teacher": "Prof. Pop"
+  },
+  "PHYLAB": {
+    "name": "Physics Lab",
+    "short": "PhysLab",
+    "defaultLocation": "Lab1",
+    "teacher": "Assist. Marin"
+  }
+}

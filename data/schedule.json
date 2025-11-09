@@ -1,0 +1,35 @@
+{
+  "Mon": [
+    {
+      "subject": "CALC101",
+      "start": "09:00",
+      "end": "10:30",
+      "parity": "both",
+      "location": "B202"
+    }
+  ],
+  "Tue": [
+    {
+      "subject": "ALG201",
+      "start": "11:00",
+      "end": "12:30",
+      "parity": "odd",
+      "location": "C101"
+    }
+  ],
+  "Wed": [
+    { "subject": "CALC101", "start": "09:00", "end": "10:30", "parity": "both" }
+  ],
+  "Thu": [
+    {
+      "subject": "PHYLAB",
+      "start": "14:00",
+      "end": "17:00",
+      "parity": "even",
+      "location": "Lab1"
+    }
+  ],
+  "Fri": [],
+  "Sat": [],
+  "Sun": []
+}
