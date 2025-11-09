@@ -83,4 +83,4 @@ function enrichClass(c, subjects) {
   };
 }
 
-export default { resolveForDate };
+export { resolveForDate };

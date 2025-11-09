@@ -1,4 +1,4 @@
-import { loadConfig, loadVacations, loadSubjects, loadSchedule } from './loader';
+import { loadConfig, loadVacations, loadSubjects, loadSchedule } from './loader.js';
 import { DateTime } from 'luxon';
 
 function fail(msg) { console.error('Validation error:', msg); process.exit(2); }

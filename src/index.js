@@ -1,5 +1,5 @@
-import { loadConfig, loadVacations, loadOverrides, loadSubjects, loadLocations, loadSchedule } from './loader';
-import { resolveForDate } from './resolver';
+import { loadConfig, loadVacations, loadOverrides, loadSubjects, loadSchedule } from './loader.js';
+import { resolveForDate } from './resolver.js';
 import { DateTime } from 'luxon';
 import twilio from 'twilio';
 
@@ -7,8 +7,6 @@ const cfg = loadConfig();
 const vacations = loadVacations();
 const overrides = loadOverrides();
 const subjects = loadSubjects();
-// locations.json is still loadable but will not be used for lookup
-const locations = loadLocations();
 const schedule = loadSchedule();
 
 const {
@@ -53,7 +51,7 @@ async function sendSms(body) {
 async function main() {
   const tz = cfg.timezone || 'UTC';
   const tomorrowISO = DateTime.now().setZone(tz).plus({ days: 1 }).toISODate();
-  const res = resolveForDate(tomorrowISO, cfg, vacations, overrides, subjects, locations, schedule);
+  const res = resolveForDate(tomorrowISO, cfg, vacations, overrides, subjects, schedule);
   const body = formatSms(res);
   console.log('SMS body:\n', body);
   try {
