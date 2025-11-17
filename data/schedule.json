@@ -1,32 +1,136 @@
 {
   "Mon": [
     {
-      "subject": "CALC101",
-      "start": "09:00",
-      "end": "10:30",
+      "subject": "NIC",
+      "start": "08:00",
+      "end": "10:00",
       "parity": "both",
-      "location": "B202"
+      "location": "E013"
+    },
+    {
+      "subject": "NIL",
+      "start": "10:00",
+      "end": "12:00",
+      "parity": "both",
+      "location": "F024"
+    },
+    {
+      "subject": "RNAVL",
+      "start": "10:00",
+      "end": "12:00",
+      "parity": "odd",
+      "location": "R022"
     }
   ],
   "Tue": [
     {
-      "subject": "ALG201",
-      "start": "11:00",
-      "end": "12:30",
-      "parity": "odd",
-      "location": "C101"
+      "subject": "AEUAVC",
+      "start": "08:00",
+      "end": "10:00",
+      "parity": "even",
+      "location": "L117"
+    },
+    {
+      "subject": "RCOMC",
+      "start": "10:00",
+      "end": "12:00",
+      "parity": "both",
+      "location": "A209"
+    },
+    {
+      "subject": "SCAC",
+      "start": "12:00",
+      "end": "14:00",
+      "parity": "both",
+      "location": "A209"
+    },
+    {
+      "subject": "DAZC",
+      "start": "14:00",
+      "end": "16:00",
+      "parity": "both",
+      "location": "G01"
     }
   ],
   "Wed": [
-    { "subject": "CALC101", "start": "09:00", "end": "10:30", "parity": "both" }
+    {
+      "subject": "ECABC",
+      "start": "08:00",
+      "end": "10:00",
+      "parity": "both",
+      "location": "L117"
+    },
+    {
+      "subject": "ENGS",
+      "start": "10:00",
+      "end": "12:00",
+      "parity": "odd",
+      "location": "L117"
+    },
+    {
+      "subject": "ENGC",
+      "start": "10:00",
+      "end": "12:00",
+      "parity": "even",
+      "location": "L117"
+    },
+    {
+      "subject": "SCAL",
+      "start": "12:00",
+      "end": "14:00",
+      "parity": "odd",
+      "location": "P206"
+    },
+    {
+      "subject": "RCOML",
+      "start": "14:00",
+      "end": "16:00",
+      "parity": "odd",
+      "location": "P206"
+    },
+    {
+      "subject": "DAZP",
+      "start": "16:00",
+      "end": "18:00",
+      "parity": "both",
+      "location": "F114"
+    }
   ],
   "Thu": [
     {
-      "subject": "PHYLAB",
+      "subject": "AEUAVS",
+      "start": "08:00",
+      "end": "10:00",
+      "parity": "odd",
+      "location": "I013"
+    },
+    {
+      "subject": "ECABP",
+      "start": "10:00",
+      "end": "12:00",
+      "parity": "both",
+      "location": "E013"
+    },
+    {
+      "subject": "SEBC",
+      "start": "12:00",
+      "end": "14:00",
+      "parity": "both",
+      "location": "E013"
+    },
+    {
+      "subject": "SEBL",
       "start": "14:00",
-      "end": "17:00",
-      "parity": "even",
-      "location": "Lab1"
+      "end": "16:00",
+      "parity": "odd",
+      "location": "E013"
+    },
+    {
+      "subject": "RNAVC",
+      "start": "16:00",
+      "end": "18:00",
+      "parity": "both",
+      "location": "E013"
     }
   ],
   "Fri": [],

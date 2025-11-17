@@ -1,20 +1,110 @@
 {
-  "CALC101": {
-    "name": "Calculus I",
-    "short": "Calc",
-    "defaultLocation": "B202",
-    "teacher": "Dr. Ionescu"
+  "NIL": {
+    "name": "Nav Inertial Lab",
+    "short": "NavInertial-L",
+    "defaultLocation": "F024",
+    "teacher": "Pana"
   },
-  "ALG201": {
-    "name": "Algorithms",
-    "short": "Algo",
-    "defaultLocation": "C101",
-    "teacher": "Prof. Pop"
+  "NIC": {
+    "name": "Nav Inertial Curs",
+    "short": "NavInertial-C",
+    "defaultLocation": "E013",
+    "teacher": "Pana"
   },
-  "PHYLAB": {
-    "name": "Physics Lab",
-    "short": "PhysLab",
-    "defaultLocation": "Lab1",
-    "teacher": "Assist. Marin"
+  "RNAVL": {
+    "name": "Radionavigatie Lab",
+    "short": "Radionav-L",
+    "defaultLocation": "R022",
+    "teacher": "Crina"
+  },
+  "RNAVC": {
+    "name": "Radionavigatie Curs",
+    "short": "Radionav-C",
+    "defaultLocation": "E013",
+    "teacher": "Grigorie"
+  },
+  "AEUAVC": {
+    "name": "Analiza Economica a Unitatilor Curs",
+    "short": "AEUAV-C",
+    "defaultLocation": "L117",
+    "teacher": "Dinu"
+  },
+  "AEUAVS": {
+    "name": "Analiza Economica a Unitatilor Seminar",
+    "short": "AEUAV-S",
+    "defaultLocation": "I013",
+    "teacher": "Tache"
+  },
+  "RCOMC": {
+    "name": "Radiocomunicatii Curs",
+    "short": "Radiocom-C",
+    "defaultLocation": "A209",
+    "teacher": "Doina Moraru"
+  },
+  "RCOML": {
+    "name": "Radiocomunicatii Lab",
+    "short": "Radiocom-L",
+    "defaultLocation": "P206",
+    "teacher": "Barbi"
+  },
+  "SCAC": {
+    "name": "Stabilitate si Control Curs",
+    "short": "SCA-C",
+    "defaultLocation": "A209",
+    "teacher": "Stoica"
+  },
+  "SCAL": {
+    "name": "Stabilitate si Control Lab",
+    "short": "SCA-L",
+    "defaultLocation": "P206",
+    "teacher": "Ene"
+  },
+  "DAZC": {
+    "name": "Dinamica Zborului Curs",
+    "short": "DAZ-C",
+    "defaultLocation": "G01",
+    "teacher": "Chelaru"
+  },
+  "DAZP": {
+    "name": "Dinamica Zborului Proiect",
+    "short": "DAZ-P",
+    "defaultLocation": "F114",
+    "teacher": "Crina"
+  },
+  "ECABC": {
+    "name": "Elemente de calcul aparate de bord Curs",
+    "short": "ECAB-C",
+    "defaultLocation": "L117",
+    "teacher": "Constantinescu"
+  },
+  "ECABP": {
+    "name": "Elemente de calcul aparate de bord Proiect",
+    "short": "ECAB-P",
+    "defaultLocation": "E013",
+    "teacher": "Ene"
+  },
+  "ENGC": {
+    "name": "Engleza ICAO Curs",
+    "short": "Engleza-C",
+    "defaultLocation": "L117",
+    "teacher": "Savu"
+  },
+  "ENGS": {
+    "name": "Engleza ICAO Seminar",
+    "short": "Engleza-S",
+    "defaultLocation": "L117",
+    "teacher": "Savu"
+  },
+  "SEBC": {
+    "name": "Sisteme electroenergetice Curs",
+    "short": "SEB-C",
+    "defaultLocation": "E013",
+    "teacher": "Muler"
+  },
+  "SEBL": {
+    "name": "Sisteme electroenergetice Laborator",
+    "short": "SEB-L",
+    "defaultLocation": "E013",
+    "teacher": "Crina"
   }
 }
